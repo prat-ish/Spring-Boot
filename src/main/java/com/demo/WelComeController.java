@@ -9,7 +9,7 @@ public class WelComeController {
 
 	@GetMapping("/welcome")
 	public String welcomM(Model model) {
-		model.addAttribute("message", "Hello World!, This is the simpliLearn Project for Phase: DevOps");
+		model.addAttribute("message", "Hello!, This is the simpliLearn Project for Phase: DevOps");
 		return "welcome";
 	}
 	
